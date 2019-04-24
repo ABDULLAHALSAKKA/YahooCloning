@@ -1,0 +1,17 @@
+termux-setup-storage
+
+pkg update && pkg upgrade
+
+pkg install git python python2 php curl clang
+
+git clone https://github.com/wahyuandhika/YahooCloning
+
+cd YahooCloning
+
+ls
+
+pip2 install requests mechanize
+
+pip2 install requirements
+
+python2 cloning.py
